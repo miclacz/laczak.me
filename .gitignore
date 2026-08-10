@@ -1,0 +1,11 @@
+# Hugo specific exclusions
+/public/
+/resources/
+
+# Local
+.DS_Store
+
+# Node
+/node_modules/
+package-lock.json
+package.json
