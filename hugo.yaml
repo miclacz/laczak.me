@@ -1,14 +1,12 @@
 baseURL: "https://piwnicamichala.site/"
 title: PiwnicaMichala
 pagination:
-  paginate: 10
+  paginate: 5
 theme: PaperMod
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
 minify:
   disableXML: true
   minifyOutput: true
@@ -49,12 +47,11 @@ params:
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: true
     title: Michał Łączak 
     subtitle: "Hi there \U0001F44B"
     imageUrl: "images/pfp.jpg"
@@ -65,34 +62,12 @@ params:
     #  - name: Posts
     #    url: posts
 
-  # home-info mode
-  #homeInfoParams:
-  #  Title: "Hi there \U0001F44B"
-  #  Content: Welcome to my blog
-
   socialIcons:
     - name: email
       url: "mailto:kontakt@piwnicamichala.site"
     - name: github
       url: "https://github.com/miclacz"
 
-  #analytics:
-  #  google:
-  #    SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-menu:
-  main:
-    - identifier: piwnicamichala
-      name: piwnicamichala.site
-      url: https://piwnicamichala.site
-      weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
