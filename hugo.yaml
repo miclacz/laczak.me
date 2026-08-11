@@ -43,9 +43,9 @@ params:
     #favicon16x16: "<link / abs url>"
     #favicon32x32: "<link / abs url>"
 
-  label:
-    text: "Home"
-    iconHeight: 35
+  #label:
+  #  text: "Home"
+  #  iconHeight: 35
 
   # profile-mode
   profileMode:
