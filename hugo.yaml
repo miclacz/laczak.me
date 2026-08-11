@@ -1,6 +1,7 @@
 baseURL: "https://piwnicamichala.site/"
 title: PiwnicaMichala
-paginate: 5
+pagination:
+  paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
