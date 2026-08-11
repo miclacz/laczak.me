@@ -2,8 +2,8 @@ name = "piwnicamichala-www"
 compatibility_date = "2026-08-11"
 
 [build]
-command = "./build.sh"
+command = "chmod a+x build.sh && ./build.sh"
 
 [assests]
-directoryy = "./public"
+directory = "./public"
 not_found_handling = "404-page"
