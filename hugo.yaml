@@ -1,5 +1,5 @@
-baseURL: "https://piwnicamichala.site/"
-title: PiwnicaMichala
+baseURL: "https://laczak.me/"
+title: laczak.me
 pagination:
   paginate: 5
 theme: PaperMod
@@ -12,11 +12,10 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: PiwnicaMichala
-  description: "Piwnica Michała"
-  keywords: [Personal, Portfolio]
-  author: Me
+  env: production
+  title: 
+  description: "Michał Łąćzak"
+  author: "Michał Łączak"
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -62,7 +61,7 @@ params:
 
   socialIcons:
     - name: email
-      url: "mailto:kontakt@piwnicamichala.site"
+      url: "mailto:kontakt@laczak.me"
     - name: github
       url: "https://github.com/miclacz"
 
